@@ -25,6 +25,7 @@ Esse documento contém princípios de qualidade de desenvolvimento de software b
 5. É papel do reviewer questionar sobre o código, sugerir melhorias baseadas na visão da empresa e exigir detalhes sobre a regra de negócio.
 6. É papel do committer saber explicar o código desenvolvido bem como a regra de negócio; 
 7. É papel do committer escutar as sugestões do reviewer e aplicá-las SEMPRE que possível.
+8. 
 
 ## Linguagens e Frameworks
 O uso das seguintes linguagens e frameworks é mandatório para novos projetos.
@@ -44,6 +45,7 @@ A SoftWillians utiliza sua própria arquitetura, baseada em alguns tópicos dos 
 * SOLID;
 * Clean Code;
 * Gang of Four.
+* DRY, KISS, YAGNI
 
 ## Estrutura das soluções
 * NomeDaSolucao.Api
