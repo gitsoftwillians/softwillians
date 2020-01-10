@@ -54,3 +54,6 @@ A SoftWillians utiliza sua própria arquitetura, baseada em alguns tópicos dos 
 * NomeDaSolucao.Domain.Core
 * NomeDaSolucao.Infra.Data
 * NomeDaSolucao.Infra.CrossCutting
+
+## Endpoints
+* kebab-case;
