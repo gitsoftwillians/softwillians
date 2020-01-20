@@ -2,7 +2,7 @@
 
 - Na barra de pesquisa do Windows, digitar: MSTSC;
 - Aparecerá a janela de "Conexão de Área de Trabalho Remota";
-- Inserir o servidor;
+- Inserir o endereço do servidor;
 - Inserir usuário e senha;
 - Aguarde a entrada no servidor.
 
