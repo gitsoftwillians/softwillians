@@ -67,7 +67,7 @@ _____________________________
 Um Site representa a **união** entre uma **Application** a uma **Application Pool**.
 Uma Application Pool pode ter N Sites.
 
-### 5.1 Conversão de Pastas para Application
+### 5.1. Conversão de Pastas para Application
 - Para acessar os Sites, vá até o IIS Manager novamente;
 - Na lateral esquerda, expanda "Sites";
 - Expanda então "Default Web Site";
@@ -81,3 +81,4 @@ Uma Application Pool pode ter N Sites.
 ________________________
 Criado por:
 Gabriel Vicente
+20/01/2020
