@@ -4,20 +4,20 @@
 - Aparecerá a janela de "Conexão de Área de Trabalho Remota";
 - Inserir o servidor;
 - Inserir usuário e senha;
-- Aguarde a entrada no servidor..
+- Aguarde a entrada no servidor.
 
 _____________________________
 ## 1. Criação de Pastas
 - Vá até o caminho "[Disco Local Padrão de Aplicações]\inetpub\wwwroot";
 - Verifique no servidor qual é o disco local usado para as aplicações (normalmente o C: ou D:);
-- Crie 2 pastas, uma representando o front-end e outra o back-end:
+- Crie 2 pastas, uma representando o front-end e outra o back-end.
 
 ### 1.1. Pasta Front-end
-- Deve ter o título "nome-da-aplicacao" (em kebab-case, sem aspas).
+- Deve ter o título "nome-da-aplicacao" (em kebab-case, sem aspas);
 - Será uma rota visível ao usuário, é importante estar em kebab-case.
 
 ### 1.2. Pasta Back-end
-- Deve ter o título "NomeAplicacao.WebAPI" (mescla de PascalCase com sufixo .WebAPI)
+- Deve ter o título "NomeAplicacao.WebAPI" (mescla de PascalCase com sufixo .WebAPI);
 - Será uma rota não visível ao usuário, somente às requisições HTTP do front-end. 
 
 _____________________________
@@ -25,8 +25,8 @@ _____________________________
 Uma Application Pool é um container de aplicação e permite ao administrador **isolar** cada aplicação ou um conjunto de aplicações. Em uma manutenção ou uma parametrização de sistemas, uma configuração específica em um número X de sistemas, deverá ser criada uma Application Pool que será o container para essas aplicações específicas com as configurações específicas. Além disso, permite controlar a aplicação, parar, pausar por um tempo determinado, uma manutenção ou release.
 
 - Pesquise na barra de pesquisa do Windows Server por "IIS Manager" e clique na opção;
-- Ao abrir, expanda o SERVIDOR e então clique em Application Pools.
-- Em qualquer local da tela da direita com os Application Pools clique com o botão direito do mouse e então em "Add Aplication Pool";
+- Ao abrir, expanda o SERVIDOR e então clique em Application Pools;
+- Em qualquer local da tela da direita com os Application Pools clique com o botão direito do mouse e então em "Add Aplication Pool".
 ### 2.1 Títulos
 Por padrão, coloque sempre o prefixo "APP_", com o padrão PascalCase.
 
@@ -37,7 +37,7 @@ Por padrão, coloque sempre o prefixo "APP_", com o padrão PascalCase.
 - Título: "APP_[NomeDaSuaAplicacaoEmPascalCase].WebAPI" (sem colchetes e com sufixo .WebAPI).
 #### 2.1.2.1 .NET CLR Version
 - No caso de **.NET Core** escolha "No Managed Code";
-- No caso de **.NET Framework** escolha ".NET CLR Version 4.X";
+- No caso de **.NET Framework** escolha ".NET CLR Version 4.X".
 
 _____________________________
 ## 3. Transferência de Arquivos
@@ -59,6 +59,6 @@ Uma Application Pool pode ter N Sites.
 - Troque para a Application Pool correspondente (back-end ou front-end), para isso, clique em "Select" e escolha a Application Pool correspondente e então em "OK";
 - Faça o mesmo processo para front-end e back-end.
 
-______
+________________________
 Criado por:
 Gabriel Vicente
